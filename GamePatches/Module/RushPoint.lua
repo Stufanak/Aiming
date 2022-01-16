@@ -21,7 +21,7 @@ local GameStats = MapFolder.GameStats
 local AimingIgnored = Aiming.Ignored
 local AimingSettings = Aiming.Settings
 local AimingUtilities = Aiming.Utilities
-AimingSettings.TargetPart = {"HumanoidRootPart", "Head", "LowerTorso", "UpperTorso"}
+AimingSettings.TargetPart = {"HumanoidRootPart", "Head"}
 
 -- // Team Check
 function AimingIgnored.IsIgnoredTeam(Player)
